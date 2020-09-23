@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify log in</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <i id="close" class="fa fa-times-circle"></i>  
+            <img src="./logo.png" alt="Spotify logotipas">
+            <div class="arrows">
+                <i class="fa fa-chevron-circle-left"></i>
+                <i class="fa fa-chevron-circle-right"></i> 
+            </div>
+        </header>
+        <form>
+            <a id="facebook" href="#"> <i class="fa fa-facebook"></i>Continue with facebook</a>
+            <a id="apple" href="#"> <i class="fa fa-apple"></i>Continue with Apple</a>
+            <a class="phone" href="#">Continue with phone number</a>
+            <div class="separator"> or </div>
+            <input type="email text" placeholder="Email address or username">
+            <input type="password" placeholder="Password">
+
+            <!-- <div class="login-row">
+                <div class="checkbox">
+                    <label class="tickbox">
+                        <input  type="checkbox">
+                        <span>Remember me</span>
+                    </label>
+                </div>  
+                <a class="login-button" href="#">Log in</a>
+            </div> -->
+
+            <div class="row">
+                <div class="container">
+                    <label class="tickbox">
+                        <input  type="checkbox">
+                        <span>Remember me</span>
+                    </label>
+                </div>
+                <input id="send" type="submit" value="Log in">
+            </div>
+            <a class="forgot" href="#">Forgot your password?</a>
+            <hr>
+            <p id="account">Don't have an account?</p>
+            <a class="phone" href="">Sign up for spotify</a>
+        </form>
+    </main>
+</body>
+</html>
